@@ -3,13 +3,13 @@ import BuyTree from '../pages/buytree';
 
 import IndexPage from '../pages/index';
 import NotFoundPage from '../pages/404';
-import PlantsAndTrees, {FlowerPlants, ForBeginner, PetFriendly, NewArrival} from '../pages/todo/plantsAndTrees';
+import PlantsAndTrees, { FlowerPlants, ForBeginner, PetFriendly, NewArrival } from '../pages/todo/plantsAndTrees';
 import Contact from '../pages/todo/contact'
 
 function AppRoutes() {
 	return (
 		<Routes>
-			<Route path='/' element={<IndexPage/>}></Route>
+			<Route path='/' element={<IndexPage />}></Route>
 			<Route path='/shop' element={<PlantsAndTrees />}></Route>
 			<Route path='/flower-plants' element={<FlowerPlants />}></Route>
 			<Route path='/for-beginner' element={<ForBeginner />}></Route>
