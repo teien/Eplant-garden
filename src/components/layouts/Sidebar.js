@@ -8,38 +8,38 @@ export default function SideBarFilter() {
             <div className="m-auto">
                 <NavLink to={"/shop"} className="nav-style" style={({ isActive, isPending }) => {
                     return {
-                        color: isActive ? "orange" : "black",
+                        color: isActive ? "#42c4c1" : "black",
                     };
                 }}>
-                    <h5 className="text-style">Plants And Trees</h5>
+                    <h4 className="text-style">Plants And Trees</h4>
                 </NavLink>
                 <NavLink to={"/flower-plants"} className="nav-style" style={({ isActive, isPending }) => {
                     return {
-                        color: isActive ? "orange" : "black",
+                        color: isActive ? "#42c4c1" : "black",
                     };
                 }}>
-                    <h5 className="text-style">Flower Plants</h5>
+                    <h4 className="text-style">Flower Plants</h4>
                 </NavLink>
                 <NavLink to={"/for-beginner"} className="nav-style" style={({ isActive, isPending }) => {
                     return {
-                        color: isActive ? "orange" : "black",
+                        color: isActive ? "#42c4c1" : "black",
                     };
                 }}>
-                    <h5 className="text-style">For Beginner</h5>
+                    <h4 className="text-style">For Beginner</h4>
                 </NavLink>
                 <NavLink to={"/pet-friendly"} className="nav-style" style={({ isActive, isPending }) => {
                     return {
-                        color: isActive ? "orange" : "black",
+                        color: isActive ? "#42c4c1" : "black",
                     };
                 }}>
-                    <h5 className="text-style">Pet friendly</h5>
+                    <h4 className="text-style">Pet friendly</h4>
                 </NavLink>
                 <NavLink to={"/new-arrival"} className="nav-style" style={({ isActive, isPending }) => {
                     return {
-                        color: isActive ? "orange" : "black",
+                        color: isActive ? "#42c4c1" : "black",
                     };
                 }}>
-                    <h5 className="text-style">New Arrival</h5>
+                    <h4 className="text-style">New Arrival</h4>
                 </NavLink>
 
             </div>
