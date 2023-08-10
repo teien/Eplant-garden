@@ -6,7 +6,6 @@ function AppRoutes() {
 	return (
 		<Routes>
 			<Route path='/' element={<HomePage />}></Route>
-
 			<Route path='*' element={<NotFoundPage />}></Route>
 		</Routes>
 	);
