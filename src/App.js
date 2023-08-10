@@ -1,5 +1,5 @@
 import './App.css';
-import SideBarFilter from './components/layouts/sidebar';
+import SideBarFilter from './components/layouts/Sidebar';
 import AppRoutes from './routes/index';
 
 function App() {
