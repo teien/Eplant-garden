@@ -1,9 +1,4 @@
 import './App.css';
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 275388c1ee7b80d15e9aae2dbfc2f71a0dcfd5fe
 import AppRoutes from './routes/index';
 import Header from './components/Header';
 
