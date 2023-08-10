@@ -1,27 +1,34 @@
 import Card from "../../components/Card";
 import getListProducts from "../../data";
 import { useState, useEffect } from "react";
+import SideBarFilter from "../../components/layouts/Sidebar";
 
 export default function PlantsAndTrees() {
 
     const [renderList, setRenderList] = useState([])
- 
+
     useEffect(() => {
         const listData = getListProducts().filter((item) => item.type === "plant&tree")
         setRenderList(listData)
     }, [])
 
-    return(
-        <div className="row justify-content-evenly">
-            {
-                renderList.map((item) => {
-                    return (
-                        <div className="col-3 py-3" key={item.id}>
-                            <Card data={item} />
-                        </div>
-                    )
-                })
-            }
+    return (
+        <div className="row">
+            <div className="col-2">
+
+            <SideBarFilter/>
+            </div>
+            <div className="row justify-content-evenly col-10">
+                {
+                    renderList.map((item) => {
+                        return (
+                            <div className="col-3 py-3" key={item.id}>
+                                <Card data={item} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }
@@ -29,13 +36,13 @@ export default function PlantsAndTrees() {
 export function FlowerPlants() {
 
     const [renderList, setRenderList] = useState([])
- 
+
     useEffect(() => {
         const listData = getListProducts().filter((item) => item.type === "flower plants")
         setRenderList(listData)
     }, [])
 
-    return(
+    return (
         <div className="row ">
             {
                 renderList.map((item) => {
@@ -52,13 +59,13 @@ export function FlowerPlants() {
 export function ForBeginner() {
 
     const [renderList, setRenderList] = useState([])
- 
+
     useEffect(() => {
         const listData = getListProducts().filter((item) => item.status === "Easy Care")
         setRenderList(listData)
     }, [])
 
-    return(
+    return (
         <div className="row justify-content-evenly">
             {
                 renderList.map((item) => {
@@ -75,13 +82,13 @@ export function ForBeginner() {
 export function PetFriendly() {
 
     const [renderList, setRenderList] = useState([])
- 
+
     useEffect(() => {
         const listData = getListProducts().filter((item) => item.status === "Pet-friendly")
         setRenderList(listData)
     }, [])
 
-    return(
+    return (
         <div className="row justify-content-evenly">
             {
                 renderList.map((item) => {
@@ -98,13 +105,13 @@ export function PetFriendly() {
 export function NewArrival() {
 
     const [renderList, setRenderList] = useState([])
- 
+
     useEffect(() => {
         const listData = getListProducts().filter((item) => item.status === "New Arrival")
         setRenderList(listData)
     }, [])
 
-    return(
+    return (
         <div className="row justify-content-evenly">
             {
                 renderList.map((item) => {
