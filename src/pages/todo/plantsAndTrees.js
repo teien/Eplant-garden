@@ -13,12 +13,12 @@ export default function PlantsAndTrees() {
     }, [])
 
     return (
-        <div className="row">
+        <div className="row mx-0">
             <div className="col-2">
 
                 <SideBarFilter />
             </div>
-            <div className="row justify-content-evenly col-10">
+            <div className="row mx-0 justify-content-evenly col-10">
                 {
                     renderList.map((item) => {
                         return (
@@ -43,13 +43,13 @@ export function FlowerPlants() {
     }, [])
 
     return (
-        <div className="row">
+        <div className="row mx-0">
             <div className="col-2">
 
                 <SideBarFilter />
             </div>
 
-            <div className="row col-10">
+            <div className="row col-10 mx-0">
                 {
                     renderList.map((item) => {
                         return (
@@ -73,12 +73,12 @@ export function ForBeginner() {
     }, [])
 
     return (
-        <div className="row">
+        <div className="row mx-0">
             <div className="col-2">
 
                 <SideBarFilter />
             </div>
-            <div className="row justify-content-evenly col-10">
+            <div className="row justify-content-evenly col-10 mx-0">
                 {
                     renderList.map((item) => {
                         return (
@@ -103,12 +103,12 @@ export function PetFriendly() {
     }, [])
 
     return (
-        <div className="row">
+        <div className="row mx-0">
             <div className="col-2">
 
                 <SideBarFilter />
             </div>
-            <div className="row justify-content-evenly col-10">
+            <div className="row mx-0 justify-content-evenly col-10">
                 {
                     renderList.map((item) => {
                         return (
@@ -132,12 +132,12 @@ export function NewArrival() {
     }, [])
 
     return (
-        <div className="row">
+        <div className="row mx-0">
             <div className="col-2">
 
                 <SideBarFilter />
             </div>
-            <div className="row justify-content-evenly col-10">
+            <div className="row mx-0 justify-content-evenly col-10">
                 {
                     renderList.map((item) => {
                         return (
