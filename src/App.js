@@ -7,10 +7,8 @@ function App() {
 		<div className='App'>
 			<Header />
 			<div className='d-flex align-start'>
-				{/* <SideBarFilter/> */}
-				<div className='w-100'>
-					{/* render page */}
-					<AppRoutes />
+							<div className='w-100'>
+								<AppRoutes />
 				</div>
 			</div>
 		</div>
