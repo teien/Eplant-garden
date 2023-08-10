@@ -1,12 +1,14 @@
 import './App.css';
 import SideBarFilter from './components/layouts/Sidebar';
 import AppRoutes from './routes/index';
+import Header from './components/Header';
 
 function App() {
 	return (
 		<div className='App'>
+			<Header />
 			<div className='d-flex align-start'>
-				<SideBarFilter/>
+				{/* <SideBarFilter/> */}
 				<div className='w-100'>
 					{/* render page */}
 					<AppRoutes />
