@@ -16,7 +16,7 @@ export default function PlantsAndTrees() {
         <div className="row">
             <div className="col-2">
 
-            <SideBarFilter/>
+                <SideBarFilter />
             </div>
             <div className="row justify-content-evenly col-10">
                 {
@@ -43,16 +43,23 @@ export function FlowerPlants() {
     }, [])
 
     return (
-        <div className="row ">
-            {
-                renderList.map((item) => {
-                    return (
-                        <div className="col-3 py-3" key={item.id}>
-                            <Card data={item} />
-                        </div>
-                    )
-                })
-            }
+        <div className="row">
+            <div className="col-2">
+
+                <SideBarFilter />
+            </div>
+
+            <div className="row col-10">
+                {
+                    renderList.map((item) => {
+                        return (
+                            <div className="col-3 py-3" key={item.id}>
+                                <Card data={item} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }
@@ -66,17 +73,24 @@ export function ForBeginner() {
     }, [])
 
     return (
-        <div className="row justify-content-evenly">
-            {
-                renderList.map((item) => {
-                    return (
-                        <div className="col-3 py-3" key={item.id}>
-                            <Card data={item} />
-                        </div>
-                    )
-                })
-            }
+        <div className="row">
+            <div className="col-2">
+
+                <SideBarFilter />
+            </div>
+            <div className="row justify-content-evenly col-10">
+                {
+                    renderList.map((item) => {
+                        return (
+                            <div className="col-3 py-3" key={item.id}>
+                                <Card data={item} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
+
     )
 }
 export function PetFriendly() {
@@ -89,16 +103,22 @@ export function PetFriendly() {
     }, [])
 
     return (
-        <div className="row justify-content-evenly">
-            {
-                renderList.map((item) => {
-                    return (
-                        <div className="col-3 py-3" key={item.id}>
-                            <Card data={item} />
-                        </div>
-                    )
-                })
-            }
+        <div className="row">
+            <div className="col-2">
+
+                <SideBarFilter />
+            </div>
+            <div className="row justify-content-evenly col-10">
+                {
+                    renderList.map((item) => {
+                        return (
+                            <div className="col-3 py-3" key={item.id}>
+                                <Card data={item} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }
@@ -112,16 +132,22 @@ export function NewArrival() {
     }, [])
 
     return (
-        <div className="row justify-content-evenly">
-            {
-                renderList.map((item) => {
-                    return (
-                        <div className="col-3 py-3" key={item.id}>
-                            <Card data={item} />
-                        </div>
-                    )
-                })
-            }
+        <div className="row">
+            <div className="col-2">
+
+                <SideBarFilter />
+            </div>
+            <div className="row justify-content-evenly col-10">
+                {
+                    renderList.map((item) => {
+                        return (
+                            <div className="col-3 py-3" key={item.id}>
+                                <Card data={item} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }
