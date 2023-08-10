@@ -1,14 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-
-import HomePage from '../pages/trang-chu';
+import HomePage from '../pages/home-page/index';
 import NotFoundPage from '../pages/404';
 
-import TodoSimplePage from '../pages/to-do-simple';
 function AppRoutes() {
 	return (
 		<Routes>
 			<Route path='/' element={<HomePage />}></Route>
-			<Route path='/to-do-simple' element={<TodoSimplePage />}></Route>
+
 			<Route path='*' element={<NotFoundPage />}></Route>
 		</Routes>
 	);

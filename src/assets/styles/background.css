@@ -1,0 +1,13 @@
+.background {
+    background-image: url('https://t3.ftcdn.net/jpg/04/28/87/10/360_F_428871097_74QTIx9LRjJSBTnknjFlX2pSTRIL1edy.jpg');
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: max-content;
+
+    background-position: center center;
+
+
+
+}
