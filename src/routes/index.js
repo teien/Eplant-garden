@@ -8,7 +8,7 @@ import PlantsAndTrees, {FlowerPlants, ForBeginner, PetFriendly, NewArrival} from
 function AppRoutes() {
 	return (
 		<Routes>
-			<Route path='/' element={<IndexPage />}></Route>
+			<Route path='/' element={<IndexPage/>}></Route>
 			<Route path='/shop' element={<PlantsAndTrees />}></Route>
 			<Route path='/flower-plants' element={<FlowerPlants />}></Route>
 			<Route path='/for-beginner' element={<ForBeginner />}></Route>
