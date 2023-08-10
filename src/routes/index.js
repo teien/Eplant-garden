@@ -8,7 +8,7 @@ function AppRoutes() {
 	return (
 		<Routes>
 			<Route path='/' element={<IndexPage />}></Route>
-			<Route path='/plantsAndTrees' element={<PlantsAndTrees />}></Route>
+			<Route path='/shop' element={<PlantsAndTrees />}></Route>
 			<Route path='/flower-plants' element={<FlowerPlants />}></Route>
 			<Route path='/for-beginner' element={<ForBeginner />}></Route>
 			<Route path='/pet-friendly' element={<PetFriendly />}></Route>
