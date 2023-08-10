@@ -18,6 +18,7 @@ export default function BuyTree() {
             <td>@fat</td>
           </tr>
         </tbody>
+        <button type="button " className="btn btn-primary">Primary</button>
       </table></div>
     )
 }
