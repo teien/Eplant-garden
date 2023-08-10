@@ -1,20 +1,14 @@
-// gọi đến component được cung cấp bở package
 import { Routes, Route } from 'react-router-dom';
 
-import IndexPage from '../pages/index';
-import TodoList from '../pages/todo/list/index';
+import HomePage from '../pages/trang-chu';
 import NotFoundPage from '../pages/404';
 
-// logic khai báo path
-// logic gán path cho pages
-
+import TodoSimplePage from '../pages/to-do-simple';
 function AppRoutes() {
-	// logic
-	//view
 	return (
 		<Routes>
-			<Route path='/' element={<IndexPage />}></Route>
-			<Route path='/todo/list' element={<TodoList />}></Route>
+			<Route path='/' element={<HomePage />}></Route>
+			<Route path='/to-do-simple' element={<TodoSimplePage />}></Route>
 			<Route path='*' element={<NotFoundPage />}></Route>
 		</Routes>
 	);
