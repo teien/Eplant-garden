@@ -16,7 +16,7 @@ export default function Header() {
 
 	};
 	const bar = {
-		marginLeft: '100px',
+		marginLeft: '210px',
 		padding: '6px',
 		backgroundColor: '#475f45', borderRadius: '8px'
 	}
@@ -42,7 +42,7 @@ export default function Header() {
 									</div>
 								</li>
 								<li>
-								<div className='navbar-nav position-relative shadow bar' style={bar}>
+								<div className='navbar-nav position-relative shadow bar ' style={bar}>
 									<li className='nav-item' >
 										<NavLink
 											to='/'
