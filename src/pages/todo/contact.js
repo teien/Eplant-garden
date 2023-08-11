@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import '../../assets/styles/contact.css';
 export default function Contact() {
     return ( 
     <div className="container-fluid d-flex">
             <div className="container">
                 <div className='row d-flex'>
                     <div class="footer-item col-6">
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <div className="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Feed Back</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </div>
