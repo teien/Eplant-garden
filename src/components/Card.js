@@ -48,6 +48,7 @@ export default function Card({ data }) {
 						<div className="col-6">
 							<h2 className="text-styles">Description</h2>
 							<span className="span-line"></span>
+							<h3 className="mt-3">{data.name}</h3>
 							<p className="desc">{data.desc}</p>
 							<li className="sub-desc">
 								{data.describe1}

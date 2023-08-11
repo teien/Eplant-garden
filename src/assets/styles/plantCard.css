@@ -89,10 +89,8 @@
 .sub-desc{
     text-align: justify;
     font-size: 18px;
-    margin-top: 8px;
 }
 .span-size{
-    margin-top: 24px;
     font-size: 18px;
     display: flex;
     gap: 20px;
