@@ -1,7 +1,7 @@
 import Card from "../../components/Card";
 import getListProducts from "../../data";
 import { useState, useEffect } from "react";
-import SideBarFilter from "../../components/layouts/Sidebar";
+import SideBarFilter from "../../components/layouts/Sidebar"
 
 export default function PlantsAndTrees() {
 

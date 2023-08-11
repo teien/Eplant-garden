@@ -6,7 +6,11 @@ const listProducts = [
         price: "$68",
         type: "plant&tree",
         status: "Pet-friendly",
-        size : "small"
+        size : "small", 
+        desc: "The Hoya carnosa variegata 'Tricolor' is an easy-going trailing plant with thick, waxy leaves (they're commonly called 'wax plants'). Vines of playful leaves with green, white and pink variegation will brighten up any room, and the plant may put out dainty, sweet-smelling flowers. Great for hanging baskets or anywhere with space for the vines to trail. ",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 3-6'' tall from the soil line to the top of the foliage",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice",
     },
     {
         id: 2,
@@ -15,8 +19,12 @@ const listProducts = [
         price: "$78",
         type: "plant&tree",
         status: "New Arrival",
-        size : "medium"
-    },
+        size : "medium",
+        desc:"Embrace color with this unique Aglaonema cultivar, Wishes. A fitting name since the Aglaonema is said to bring luck, fortune, and general positivity to those who grow it. Whether you believe in its hidden powers or not, there's no denying this colorful plant will bring joy to your space.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Medium plant measures between 9-14'' tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in a '' nursery grow pot nestled in your planter choice",
+        },
     {
         id: 3,
         img:"https://cdn.shopify.com/s/files/1/0150/6262/files/the-sill_Medium-Banana-Tree_Medium_Grant_Terracotta_Variant.jpg?v=1688757821",
@@ -24,7 +32,11 @@ const listProducts = [
         price: "$78",
         type: "plant&tree",
         status: "New Arrival",
-        size : "medium"
+        size : "medium",
+        desc:"The Dwarf Banana Tree (Musa acuminata 'Dwarf Cavendish') is a fast-grower native to Southeast Asia that can reach 8- to 10-feet in height. This plant's broad, flat leaves are adorned with maroon blotches that fade as the plant ages. Under optimal conditions, this plant can potentially produce actual bananas once it reaches at least three feet tall. ",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Medium plant measures between 8 and 15 inches tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in a '' nursery grow pot nestled in your planter choice",
     },
     {
         id: 4,
@@ -33,7 +45,11 @@ const listProducts = [
         price: "$78",
         type: "plant&tree",
         status: "New Arrival",
-        size : "medium"
+        size : "medium",
+        desc: "Calathea musaica, or commonly referred to as Calathea network gets its name due to the glossy, intricate foliage that resembles a mosaic pattern. Like other prayer plants in its family, it raises and lowers these leaves from day to night, a phenomenon called nyctinasty! This plant is also non-toxic and safe to keep around curious pets and children.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Medium plants measure between 4''-10'' tall from the soil line to the top of the foliage and arrives in a 6'' grow pot ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice",
     },
     {
         id: 5,
@@ -42,7 +58,11 @@ const listProducts = [
         price: "$68",
         type: "plant&tree",
         status: "New Arrival",
-        size : "small"
+        size : "small",
+        desc: "The Summer Succulent is a colorful succulent that is pet friendly and perfect for a small windowsill or sunny space. It contains three varieties of Sempervivum species in one pot. This cute mix is a fun way to bring a pop of color and texture into any room.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 1 - 3'' tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in nursery grow pot nestled in your planter choice",
     },
     {
         id: 6,
@@ -51,7 +71,11 @@ const listProducts = [
         price: "$78",
         type: "plant&tree",
         status: "Pet-friendly",
-        size : "small & medium"
+        size : "small & medium",
+        desc : "With their small, silvery, gray-green leaves, olive trees (this specific variety is the Common Olive Tree) make beautiful houseplants. These Mediterranean plants need a lot of bright, direct sunlight. South and west facing windows are ideal. Pet friendly. (Pro-tip: Olive branches make beautiful additions to bouquets, something to keep in mind as yours grows for years to come.)  ",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 5-10'' tall from soil line to the top of the foliage",
+        describe3:"Medium plant measures between 8''-16'' tall from the soil line to the top of the foliage ",
     },
     {
         id: 7,
@@ -60,7 +84,11 @@ const listProducts = [
         price: "$38",
         type: "plant&tree",
         status: "Pet-friendly",
-        size : "small"
+        size : "small",
+        desc: "The Staghorn Fern is one of our favorite varieties of ferns thanks to its whimsical fronds that resemble antlers, hence its common name! Look very closely, and you may notice two distinct parts of the Staghorn: sporophytes (the stags) and gametophytes (the shields). Both play crucial roles in the epiphytic plant's lifecycle.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 4-9'' tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in a 4'' nursery grow pot nestled in your planter choice ",
     },
     {
         id: 8,
@@ -69,7 +97,11 @@ const listProducts = [
         price: "$48",
         type: "plant&tree",
         status: "Pet-friendly",
-        size : "medium"
+        size : "medium",
+        desc :"The Bird's Nest Victoria is a lower-maintenance fern that does great as a houseplant. Rippled, bright green leaves grow from the center of a nest-like crown, hence the name. When growing indoors, these fronds can reach up to two feet in length. This plant thrives in indirect sunlight, loves humidity (try them in your bathroom!), and it's pet friendly.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Medium plant measures between 6''-12'' tall from the soil line to the top of the foliage  ",
+        describe3:"Arrives in a 6'' nursery grow pot nestled in your planter choice ",
     },
     {
         id: 9,
@@ -78,7 +110,11 @@ const listProducts = [
         price: "$78",
         type: "flower plants",
         status: "Pet-friendly",
-        size : "small"
+        size : "small",
+        desc :"The “pink” in Bromeliad Antonio Pink describes the fuchsia bracts found in this cultivar, which sometimes produce short-blooming purple flowers. Its vibrant bract also gives it its nickname, the Pink Quill Plant. This plant is pet-friendly!",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 12 - 16'' tall from the soil line to the top of the foliage  ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice ",
     },
     {
         id: 10,
@@ -87,7 +123,11 @@ const listProducts = [
         price: "$78",
         type: "flower plants",
         status: "Pet-friendly",
-        size : "small"
+        size : "small",
+        desc :"Our Bromeliad Guzmania Hope sports a striking, bright red bract with white tips. A beautiful houseplant all year long, its bold and cheery color make it our go-to for a unique Mother’s Day, or any day, gift.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 14 - 18'' tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice  ",
     },
     {
         id: 11,
@@ -96,7 +136,11 @@ const listProducts = [
         price: "$78",
         type: "flower plants",
         status: "Easy Care",
-        size : "small"
+        size : "small",
+        desc :"The Vriesea Intenso Orange, or flaming sword houseplant, is one of the showiest bromeliads known for its bright orange spike, lasting as long as 3–6 months. It is a colorful, easy indoor plant that will brighten up any space. Added bonus, it's non-toxic, making it safe to keep around curious pets.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 14 - 18'' tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice ",
     },
     
     {
@@ -106,7 +150,11 @@ const listProducts = [
         price: "$88",
         type: "flower plants",
         status: "Easy Care",
-        size : "small"
+        size : "small",
+        desc :"Meet the Purple Orchid—a beginner-friendly Phalaenopsis orchid with vivid purple blooms edged in white. Phalaenopsis orchids typically bloom about once a year for up to three months. Upon delivery, you may notice a few buds on your orchid; these blooms will open quicker in a warm indoor setting. After a blooming cycle, the flowers will wilt and fall off, allowing the orchid to store energy to re-bloom again next season. Add bonus: Phalaenopsis orchids are non-toxic, making them a great gift plant and pet lovers.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Orchid measures between 20 - 28'' tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice ",
     },
     {
         id: 13,
@@ -115,7 +163,11 @@ const listProducts = [
         price: "$88",
         type: "flower plants",
         status: "Easy Care",
-        size : "small"
+        size : "small",
+        desc :"With its elegant stems and vibrant white flowers, this Phalaenopsis orchid makes any space feel chicer. You may notice a small number of blooms on your orchid upon delivery. These blooms will open quicker in a warm indoor setting. The Phalaenopsis will typically bloom about once a year for up to three months. After a blooming cycle, the flowers will wilt and fall off. This is the orchid's way to store up energy to re-bloom again next season.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Orchid measures between 20 - 28'' tall from the soil line to the top of the foliage  ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice ",
     },
     {
         id: 14,
@@ -124,7 +176,11 @@ const listProducts = [
         price: "$88",
         type: "flower plants",
         status: "Easy Care",
-        size : "small"
+        size : "small",
+        desc :"Our Yellow Orchid is sure to brighten up any space with its light yellow flowers with fun, pink centers. You may notice a small number of blooms on your orchid upon delivery. These blooms will open more quickly in a warm, indoor setting. This plant will typically bloom about once a year, for up to three months at a time. After a blooming cycle, the flowers will wilt and fall off. This is the orchid's way to store up energy to re-bloom again next season.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Orchid measures between 16 - 22'' tall from the soil line to the top of the foliage ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice  ",
     },
     {
         id: 15,
@@ -133,7 +189,11 @@ const listProducts = [
         price: "$68",
         type: "flower plants",
         status: "Pet-friendly",
-        size : "small"
+        size : "small",
+        desc :"Add a pop of pink to your tablescape with this popular Phalaenopsis orchid. One of the easiest varieties to grow as a houseplant—it is affectionately called the beginner orchid. You may notice a small number of blooms on your orchid upon delivery. These blooms will open quicker in a warm indoor setting. It will typically bloom about once a year, for up to three months. After a blooming cycle, the flowers will wilt and fall off. This is the orchid's way to store up energy to re-bloom again next season.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Orchid measures between 8'' - 14'' tall from the soil line to the top of the foliage  ",
+        describe3:"Arrives in a nursery grow pot nestled inside your planter choice ",
     },
     {
         id: 16,
@@ -142,7 +202,11 @@ const listProducts = [
         price: "$68",
         type: "flower plants",
         status: "Pet-friendly",
-        size : "small"
+        size : "small",
+        desc :"Add a pop of serenity to your tablescape with this popular Phalaenopsis orchid. One of the easiest varieties to grow as a houseplant—it is affectionately called the beginner orchid. You may notice a small number of blooms on your orchid upon delivery. These blooms will open quicker in a warm indoor setting. It will typically bloom about once a year, for up to three months. After a blooming cycle, the flowers will wilt and fall off. This is the orchid's way to store up energy to re-bloom again next season.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Orchid measures between 8'' - 14'' tall from the soil line to the top of the foliage  ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice ",
     },
     {
         id: 17,
@@ -151,7 +215,11 @@ const listProducts = [
         price: "$51",
         type: "plant&tree",
         status: "Easy Care",
-        size : "small"
+        size : "small",
+        desc : "The Kalanchoe thyrsiflora is commonly referred to as Flapjack succulent due to its large flat leaves that appear to be stacked together like pancakes. This drought-tolerant succulent can grow over 12 inches tall and direct sun exposure helps to create pinkish-red pigments on the edges of the leaves. ",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 4 - 9'' tall from the soil line to the top of the foliage  ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice.  ",
     },
     {
         id: 18,
@@ -160,7 +228,11 @@ const listProducts = [
         price: "$51",
         type: "plant&tree",
         status: "Easy Care",
-        size : "small"
+        size : "small",
+        desc: "The Parlor Palm is a favorite easy-care palm with tropical fronds known for its air-purifying qualities. ",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Small plant measures between 8 - 15'' tall from the soil line to the top of the foliage  ",
+        describe3:"Medium plant measures between 12 - 18'' tall from the soil line to the top of the foliage  ",
     },
     {
         id: 19,
@@ -169,7 +241,11 @@ const listProducts = [
         price: "$59",
         type: "plant&tree",
         status: "Easy Care",
-        size : "medium"
+        size : "medium",
+        desc: "The Philodendron xanadu (Thaumatophyllum xanadu) is an easy-care tropical houseplant that adds airy texture to any room. This species can grow up to four feet tall under optimal conditions, and as the plant ages, the shape of the lobed leaves gets more and more defined and unique.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Medium plants measure between 10-16'' tall from the soil line to the top of the foliagee  ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice  ",
     },
     {
         id: 20,
@@ -178,7 +254,11 @@ const listProducts = [
         price: "$78",
         type: "plant&tree",
         status: "Easy Care",
-        size : "medium"
+        size : "medium",
+        desc: "The Moonshine Snake Plant (Dracaena trifasciata 'Moonshine'), is adored its upright, broad leaves that boast a silvery overtone and dark green edges. Snake plants are known for being drought-tolerant, and for their superior air-purifying capabilities. But please note: unlike other Snake plants, the Moonshine needs brighter light to retain its silvery pigmentation.",
+        describe1:"Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
+        describe2:"Medium plant measures between 7 - 14'' tall from the soil line to the top of the foliage  ",
+        describe3:"Arrives in a nursery grow pot nestled in your planter choice.   ",
     },
 ]
 
