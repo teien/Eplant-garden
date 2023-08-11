@@ -55,7 +55,7 @@ export default function Card({ data }) {
 								<p style={{padding: 8, fontSize: 20}}>size:</p>
 								<p style={{padding: "8px 36px", fontStyle:"italic", border: "1px solid #000"}}>{data.size}</p>
 							</div>
-							<Link to={"/buytree"} type="button" className="btn btn-success d-block my-2 w-100">Add to Cart</Link>
+							<Link to={"/buytree"} type="button" className="btn btn-success d-block my-2 w-100" style={{backgroundColor:"#475f45"}}>Add to Cart</Link>
 						</div>
 					</div>
 				</div>
