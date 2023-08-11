@@ -58,6 +58,5 @@
     flex-wrap: wrap;
 }
 .ms-4{
-    font-weight: bold;
-    font-size: 16px;
+    width: 100%;
 }
