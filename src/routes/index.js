@@ -4,7 +4,8 @@ import About from '../pages/todo/aboutus'
 import IndexPage from '../pages/index';
 import NotFoundPage from '../pages/404';
 import PlantsAndTrees, { FlowerPlants, ForBeginner, PetFriendly, NewArrival } from '../pages/todo/plantsAndTrees';
-import Contact from '../pages/todo/contact'
+import Contact from '../pages/todo/contact';
+import Feedback from '../pages/todo/feedback';
 
 function AppRoutes() {
 	return (
@@ -17,6 +18,7 @@ function AppRoutes() {
 			<Route path='/new-arrival' element={<NewArrival />}></Route>
 			<Route path='/contact-us' element={<Contact />}></Route>
 			<Route path='/about-us' element={<About />}></Route>
+			<Route path='/feed-back' element={<Feedback />}></Route>
 			<Route path='/buytree' element={<BuyTree />}></Route>
 			<Route path='*' element={<NotFoundPage />}></Route>
 		</Routes>
