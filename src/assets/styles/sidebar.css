@@ -7,4 +7,5 @@
     text-decoration: none;
     display: block;
     margin-bottom: 16px;   
+    white-space: nowrap;
 }
