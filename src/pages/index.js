@@ -64,7 +64,7 @@ function IndexPage() {
 							<div className="col-md-5 col-lg-5 col-xl-5 mx-auto mb-4">
 
 								<h6 className="text-uppercase fw-bold mb-4">
-									<i className="fas fa-gem me-3 text-secondary"></i>PLANT PALACE
+									<i className="fas fa-gem me-3 text-secondary"></i><Link className="text-secondary text-decoration-none" to='/'>PLANT PALACE</Link>
 								</h6>
 								<p>
 									At Plant Palace, we believe that the true essence of nature lies in the beauty of plants. We're your premier destination for all things green, a botanical paradise where you can explore a diverse collection of exquisite plants and bring the enchantment of the natural world into your life.
@@ -72,7 +72,7 @@ function IndexPage() {
 							</div>
 							<div className="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
 
-								<h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+								<h6 className="text-uppercase fw-bold mb-4"><Link className="text-secondary text-decoration-none" to='/contact-us'>Contact</Link></h6>
 								<p><i className="fas fa-home me-3 text-secondary"></i> Thủy Lợi University, Việt Nam</p>
 								<p>
 									<i className="fa-solid fa-envelope-circle-check me-3 text-secondary"> </i>

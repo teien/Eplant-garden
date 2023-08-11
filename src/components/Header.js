@@ -15,7 +15,7 @@ export default function Header() {
 
 	};
 	const bar = {
-		marginLeft: '210px',
+		marginLeft: '240px',
 		padding: '6px',
 		backgroundColor: '#475f45', borderRadius: '8px'
 	}
