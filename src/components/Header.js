@@ -9,7 +9,7 @@ export default function Header() {
 		display: 'block',
 		padding: '6px 12px',
 		letterSpacing: '1px',
-
+		whiteSpace: "nowrap"
 	};
 	const searchbuttom = {
 		marginLeft: '200px',
