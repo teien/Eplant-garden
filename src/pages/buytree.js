@@ -1,4 +1,6 @@
 
+import React,{useState, useEffect} from 'react';
+import getListProducts from "../data";
 export default function BuyTree() {
     const styleBtn = {
         width: 150,
@@ -7,7 +9,17 @@ export default function BuyTree() {
         border: "none",
         display: "block"
     }
+    const [listData, setListData] = useState([]);
 
+
+    useEffect(() => {
+        const prevCartIds = localStorage.getItem('userCart') ? JSON.parse(localStorage.getItem('userCart')) : [];
+        const dummyData = getListProducts();
+        const myMatchData = dummyData.filter(o => prevCartIds.includes(o.id));
+
+        setListData(myMatchData)
+    }, []);
+    const totalBill = listData.map( o => +o.price).reduce((a,b)=> a+b,0)
     return (
         <div className="container mt-5">
             <table className="table">
@@ -20,39 +32,30 @@ export default function BuyTree() {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row " className="d-flex gap-3" style={{ alignItems: "center" }}>
-                            <img className="d-block" style={{ width: 100 }} src="https://cdn.shopify.com/s/files/1/0150/6262/products/The-Sill_HoyaCarnosa_Small_Hyde_Mint_Variant.jpg?v=1690598107&amp"></img>
-                            <p >Hoya Carnosa Tricolor</p>
-                        </th>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>1</td>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>$68</td>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>
-                            <a style={{ color: "red" }}>Delete</a>
-                        </td>
+
+                    {
+                        listData.map(o=>{
+                            return    <tr key={o.id}>
+                            <th scope="row " className="d-flex gap-3" style={{ alignItems: "center" }}>
+                                <img className="d-block" style={{ width: '100px' }} src={o.img} alt="product-img" />
+                                <p >{o.name}</p>
+                            </th>
+                            <td style={{ lineHeight: "120px", textAlign: "center" }}>1</td>
+                            <td style={{ lineHeight: "120px", textAlign: "center" }}>${o.price}</td>
+                            <td style={{ lineHeight: "120px", textAlign: "center" }}>
+                                <a style={{ color: "red" }}>Delete</a>
+                            </td>
+                        </tr>
+                        })
+                    }
+                 {
+                    listData.length ? null : <tr >
+                    <th scope="row " className="text-center py-2 " colSpan={99}>
+                       
+                        <p >You have no product in cart yet. </p>
+                    </th>
                     </tr>
-                    <tr>
-                        <th scope="row " className="d-flex gap-3" style={{ alignItems: "center" }}>
-                            <img className="d-block" style={{ width: 100 }} src="https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_aglaonema-wishes_medium_hyde_cream.jpg?v=1678485669"></img>
-                            <p >Aglaonema Wishesr</p>
-                        </th>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>1</td>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>$78</td>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>
-                            <a style={{ color: "red" }}>Delete</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row " className="d-flex gap-3" style={{ alignItems: "center" }}>
-                            <img className="d-block" style={{ width: 100 }} src="https://cdn.shopify.com/s/files/1/0150/6262/products/the_sill-variant-white_gloss-bromeliad_pink.jpg?v=1680539579"></img>
-                            <p >Bromeliad Antonio Pink</p>
-                        </th>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>1</td>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>$78</td>
-                        <td style={{ lineHeight: "120px", textAlign: "center" }}>
-                            <a style={{ color: "red" }}>Delete</a>
-                        </td>
-                    </tr>
+                 }
                 </tbody>
             </table>
             <div className="row" style={{
@@ -68,7 +71,7 @@ export default function BuyTree() {
                 <div className="col-5 row">
                     <div className="col-6" style={{display:"flex", gap: 20}}>
                         <h1 style={{ marginTop: 20, fontWeight: 600 }}>Total:</h1>
-                        <h1 style={{ marginTop: 20, fontWeight: 600 }}>$224</h1>
+                        <h1 style={{ marginTop: 20, fontWeight: 600 }}>${totalBill}</h1>
                     </div>
                     <div className="col-6 d-flex  align-items-center">
                         <button type="button" className="btn btn-success d-block" style={{

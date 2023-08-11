@@ -42,7 +42,7 @@ export default function Feedback() {
                             </div>
                         </form>
                         <div className="text-center text-md-left">
-                            <button className="btn btn-primary" >Send</button>
+                            <button className="btn btn-primary" style={{backgroundColor:'#475f45'}}>Send</button>
 
                         </div>
                         <div className="status"></div>
