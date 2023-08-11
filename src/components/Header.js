@@ -13,6 +13,7 @@ export default function Header() {
 	};
 	const searchbuttom = {
 		marginLeft: '200px',
+		stylebackgroundColor:'#475f45',
 
 
 	};
@@ -82,7 +83,7 @@ export default function Header() {
 									</NavLink>
 
 								</li>
-								<li className='nav-item'>
+								{/* 	<li className='nav-item'>
 									<NavLink
 										to='/contact-us'
 										style={navItem}
@@ -93,7 +94,7 @@ export default function Header() {
 										Contact Us
 									</NavLink>
 
-								</li>
+								</li> */}
 								<li className='nav-item'>
 									<NavLink
 										to='/feed-back'

@@ -6,7 +6,7 @@ export default function SideBarFilter() {
     return (
         <div className="sidebar">
             <div className="m-auto">
-                <NavLink to={"/shop"} className="nav-style" style={({ isActive, isPending }) => {
+                <NavLink to={"/plant-and-tree"} className="nav-style" style={({ isActive, isPending }) => {
                     return {
                         color: isActive ? "#42c4c1" : "black",
                     };
