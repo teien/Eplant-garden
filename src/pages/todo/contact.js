@@ -3,7 +3,7 @@ export default function Contact() {
     return ( 
     <div className="container-fluid d-flex">
             <div className="container">
-                <div className='row'>
+                <div className='row d-flex'>
                     <div class="footer-item col-6">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
