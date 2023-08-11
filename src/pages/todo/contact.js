@@ -4,44 +4,20 @@ export default function Contact() {
     <div className="container-fluid d-flex">
             <div className="container d-flex">
                 <div className='row'>
-                    <div class="footer-item col-12 d-flex ms-1">
-                        <div class="get-help ms-1">
-                            <span class="ms-1">
-                            GET HELP
-                            </span>
+                    <div class="footer-item col-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </div>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="feedback"/>
-                        <label for="floatingInput">What can we help you with ?</label>
+                    <div class="footer-item col-6">
+                            <img src='https://i.pinimg.com/236x/df/f9/e0/dff9e0e92f27f8946fa21274cfdb6691.jpg'/>
                     </div>
-                    <div class="footer-item col-12 d-flex ms-1">
-                    <div class="lien-he ms-1">
-                        <span class="ms-1">
-                            CONTACT US
-                        </span>
-                    </div>
-                    <div class="footer-item col-12 d-block ms-3 mb-3">
-                    <hr  width="30%" />
-                    </div> 
-                    <div class="dien-thoai">
-                    <div class="footer-item col-4">
-                        <a class="ms-4">
-                            PRODUCTS & ORDERS
-                        </a>
-                        <span class="">
-                            Hotline
-                        </span>
-                        <span class="">
-                            24  hours
-                        </span>
-                        <span class="">
-                            7 days
-                        </span>
-                    </div>
-                </div>
-                </div>
-            </div>
+                </div>  
         </div>
     </div>
     )
