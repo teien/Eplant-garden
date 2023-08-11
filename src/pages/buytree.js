@@ -56,7 +56,7 @@ export default function BuyTree() {
                 </tbody>
             </table>
             <div className="row" style={{
-                width: "85%",
+                width: "100%",
                 height: 80,
                 backgroundColor: "#eeeee4",
                 position: "fixed",
