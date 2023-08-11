@@ -1,10 +1,10 @@
 
-export default function Contact() {
+export default function Feedback() {
     return (
         <div className="border border-5 m-auto mt-5" style={{ width: '1200px' }}>
             <section className="mb-4">
-                <h2 className="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-                <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please feel free to reach out to us directly. Our team will promptly respond within a few hours to assist you.</p>
+                <h2 className="h1-responsive font-weight-bold text-center my-4">FeedBack</h2>
+                <p className="text-center w-responsive mx-auto mb-5">We appreciate your support. Please share your feedback on our product/service so we can improve. Your input is precious encouragement and helps us serve you better.</p>
                 <div className="row">
                     <div className="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="mail.php" >
