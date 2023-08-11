@@ -23,6 +23,19 @@ function AppRoutes() {
 			<Route path='/buytree' element={<BuyTree />}></Route>
 			<Route path='*' element={<NotFoundPage />}></Route>
 			<Route path='/ten-repo' element={<IndexPage />}></Route>
+			<Route path='/PlantPalace' element={<IndexPage />}></Route>
+			<Route path='/' element={<IndexPage />}></Route>
+			<Route path='https://teien.github.io/shop' element={<PlantsAndTrees />}></Route>
+			<Route path='https://teien.github.io/flower-plants' element={<FlowerPlants />}></Route>
+			<Route path='https://teien.github.io/for-beginner' element={<ForBeginner />}></Route>
+			<Route path='https://teien.github.io/pet-friendly' element={<PetFriendly />}></Route>
+			<Route path='https://teien.github.io/new-arrival' element={<NewArrival />}></Route>
+			<Route path='https://teien.github.io/contact-us' element={<Contact />}></Route>
+			<Route path='https://teien.github.io/about-us' element={<About />}></Route>
+			<Route path='https://teien.github.io/feed-back' element={<Feedback />}></Route>
+			<Route path='https://teien.github.io/buytree' element={<BuyTree />}></Route>
+			<Route path='*' element={<NotFoundPage />}></Route>
+			<Route path='https://teien.github.io/ten-repo' element={<IndexPage />}></Route>
 		</Routes>
 	);
 }
