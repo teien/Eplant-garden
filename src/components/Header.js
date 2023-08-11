@@ -30,7 +30,7 @@ export default function Header() {
 			<div className='container-fluid'>
 				<div className='collapse navbar-collapse w-100 px-3' id='navbarNav'>
 					<ul className='navbar-nav position-relative align-items-center w-100'>
-						<div className='col-4'>
+						<div className='col-3'>
 							<li style={{}}>
 
 								<div className='d-flex align-items-center  m-lg-3 gap-3 p-lg-3 '>
@@ -45,7 +45,7 @@ export default function Header() {
 							</li>
 						</div>
 						<li>
-							<div className='navbar-nav position-relative shadow bar ' style={bar}>
+							<div className='navbar-nav position-relative shadow bar ms-5' style={bar}>
 								<li className='nav-item' >
 									<NavLink
 										to='/'
