@@ -7,8 +7,8 @@ function App() {
 		<div className='App'>
 			<Header />
 			<div className='d-flex align-start'>
-							<div className='w-100'>
-								<AppRoutes />
+				<div className='w-100'>
+					<AppRoutes />
 				</div>
 			</div>
 		</div>
