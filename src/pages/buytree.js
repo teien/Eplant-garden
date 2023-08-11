@@ -1,5 +1,6 @@
 
 import React,{useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 import getListProducts from "../data";
 export default function BuyTree() {
     const styleBtn = {
@@ -20,6 +21,11 @@ export default function BuyTree() {
         setListData(myMatchData)
     }, []);
     const totalBill = listData.map( o => +o.price).reduce((a,b)=> a+b,0)
+    const handleDelete = (data) => {
+        const myData =  listData.filter((item) => item.id !== data.id)
+        localStorage.setItem("userCart", JSON.stringify(myData)) 
+        setListData(myData)
+    }
     return (
         <div className="container mt-5">
             <table className="table">
@@ -43,7 +49,7 @@ export default function BuyTree() {
                             <td style={{ lineHeight: "120px", textAlign: "center" }}>1</td>
                             <td style={{ lineHeight: "120px", textAlign: "center" }}>${o.price}</td>
                             <td style={{ lineHeight: "120px", textAlign: "center" }}>
-                                <a style={{ color: "red" }}>Delete</a>
+                                <a style={{ color: "red", cursor:"pointer" }} onClick={() => handleDelete(o)}>Delete</a>
                             </td>
                         </tr>
                         })
@@ -52,17 +58,19 @@ export default function BuyTree() {
                     listData.length ? null : <tr >
                     <th scope="row " className="text-center py-2 " colSpan={99}>
                        
-                        <p >You have no product in cart yet. </p>
+                        <p >You have no product in cart yet. <span style={{
+                            color:"#42c4c1",
+                        }}><Link to={"/shop"}>Buy now</Link></span></p>
                     </th>
                     </tr>
                  }
                 </tbody>
             </table>
             <div className="row" style={{
-                width: "100%",
+                width:1300,
                 height: 80,
+                position:"fixed",
                 backgroundColor: "#eeeee4",
-                position: "fixed",
                 bottom: 0,
                 borderTopLeftRadius: 20,
                 borderTopRightRadius: 20,
