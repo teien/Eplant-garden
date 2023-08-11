@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom"
 function IndexPage() {
 
 	return (
@@ -14,7 +15,7 @@ function IndexPage() {
 						<div className="card-body mt-5 ms-3" style={{ width: '500px' }}>
 							<h1 className="card-title fs-1">We Love Helping To Your Decorate Home Plants</h1>
 							<p className="card-text">Garden care is the process of maintaining and nurturning a garden to ensure its health, beauty, and productivity.</p>
-							<a className="btn btn-primary" href="/Shop" role="button">Shop Now</a>
+							<Link className="btn btn-primary" to="/Shop" role="button">Shop Now</Link>
 						</div>
 					</div>
 				</div>
@@ -31,24 +32,24 @@ function IndexPage() {
 
 
 					<div>
-						<a href="" className="me-4 link-secondary">
+						<Link to="" className="me-4 link-secondary">
 							<i className="fab fa-facebook-f"></i>
-						</a>
-						<a href="" className="me-4 link-secondary">
+						</Link>
+						<Link to="" className="me-4 link-secondary">
 							<i className="fab fa-twitter"></i>
-						</a>
-						<a href="" className="me-4 link-secondary">
+						</Link>
+						<Link to="" className="me-4 link-secondary">
 							<i className="fab fa-google"></i>
-						</a>
-						<a href="" className="me-4 link-secondary">
+						</Link>
+						<Link to="" className="me-4 link-secondary">
 							<i className="fab fa-instagram"></i>
-						</a>
-						<a href="" className="me-4 link-secondary">
+						</Link>
+						<Link to="" className="me-4 link-secondary">
 							<i className="fab fa-linkedin"></i>
-						</a>
-						<a href="" className="me-4 link-secondary">
+						</Link>
+						<Link to="" className="me-4 link-secondary">
 							<i className="fab fa-github"></i>
-						</a>
+						</Link>
 					</div>
 
 				</section>
@@ -60,83 +61,31 @@ function IndexPage() {
 
 						<div className="row mt-3">
 
-							<div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+							<div className="col-md-5 col-lg-5 col-xl-5 mx-auto mb-4">
 
 								<h6 className="text-uppercase fw-bold mb-4">
-									<i className="fas fa-gem me-3 text-secondary"></i>Company name
+									<i className="fas fa-gem me-3 text-secondary"></i><Link className="text-secondary text-decoration-none" to='/'>PLANT PALACE</Link>
 								</h6>
 								<p>
-									Here you can use rows and columns to organize your footer content. Lorem ipsum
-									dolor sit amet, consectetur adipisicing elit.
+									At Plant Palace, we believe that the true essence of nature lies in the beauty of plants. We're your premier destination for all things green, a botanical paradise where you can explore a diverse collection of exquisite plants and bring the enchantment of the natural world into your life.
 								</p>
 							</div>
+							<div className="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
 
-
-
-							<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-								<h6 className="text-uppercase fw-bold mb-4">
-									Products
-								</h6>
+								<h6 className="text-uppercase fw-bold mb-4"><Link className="text-secondary text-decoration-none" to='/contact-us'>Contact</Link></h6>
+								<p><i className="fas fa-home me-3 text-secondary"></i> Thủy Lợi University, Việt Nam</p>
 								<p>
-									<a href="#!" className="text-reset">Angular</a>
+									<i className="fa-solid fa-envelope-circle-check me-3 text-secondary"> </i>
+									Homies@aptech.vn
 								</p>
-								<p>
-									<a href="#!" className="text-reset">React</a>
-								</p>
-								<p>
-									<a href="#!" className="text-reset">Vue</a>
-								</p>
-								<p>
-									<a href="#!" className="text-reset">Laravel</a>
-								</p>
+								<p><i className="fas fa-phone me-3 text-secondary"></i> 0382 020 858</p>
 							</div>
-
-
-
-							<div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-								<h6 className="text-uppercase fw-bold mb-4">
-									Useful links
-								</h6>
-								<p>
-									<a href="#!" className="text-reset">Pricing</a>
-								</p>
-								<p>
-									<a href="#!" className="text-reset">Settings</a>
-								</p>
-								<p>
-									<a href="#!" className="text-reset">Orders</a>
-								</p>
-								<p>
-									<a href="#!" className="text-reset">Help</a>
-								</p>
-							</div>
-
-
-
-							<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-								<h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-								<p><i className="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
-								<p>
-									<i className="fas fa-envelope me-3 text-secondary"></i>
-
-								</p>
-								<p><i className="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-								<p><i className="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
-							</div>
-
 						</div>
-
 					</div>
 				</section>
-
-
-
 				<div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}>
-					© 2021 Copyright:
-					<a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+
+					<Link className="text-reset fw-bold" to="/"> Created By Homies 2023  </Link>
 				</div>
 
 			</footer >
