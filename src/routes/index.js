@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import BuyTree from '../pages/buytree';
 import About from '../pages/todo/aboutus'
 import IndexPage from '../pages/index';
@@ -9,7 +9,7 @@ import Feedback from '../pages/todo/feedback';
 
 function AppRoutes() {
 	return (
-		<Router>
+		<Routes>
 			<Route path='/PlantPalace' element={<IndexPage />}></Route>
 			<Route path='/' element={<IndexPage />}></Route>
 			<Route path='/shop' element={<PlantsAndTrees />}></Route>
@@ -23,7 +23,7 @@ function AppRoutes() {
 			<Route path='/buytree' element={<BuyTree />}></Route>
 			<Route path='*' element={<NotFoundPage />}></Route>
 
-		</Router>
+		</Routes>
 	);
 }
 
