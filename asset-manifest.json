@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PlantPalace/static/css/main.433c930c.css",
-    "main.js": "/PlantPalace/static/js/main.e3a70096.js",
+    "main.js": "/PlantPalace/static/js/main.8cae0626.js",
     "static/js/787.7a1fce11.chunk.js": "/PlantPalace/static/js/787.7a1fce11.chunk.js",
     "index.html": "/PlantPalace/index.html",
     "main.433c930c.css.map": "/PlantPalace/static/css/main.433c930c.css.map",
-    "main.e3a70096.js.map": "/PlantPalace/static/js/main.e3a70096.js.map",
+    "main.8cae0626.js.map": "/PlantPalace/static/js/main.8cae0626.js.map",
     "787.7a1fce11.chunk.js.map": "/PlantPalace/static/js/787.7a1fce11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.433c930c.css",
-    "static/js/main.e3a70096.js"
+    "static/js/main.8cae0626.js"
   ]
 }
