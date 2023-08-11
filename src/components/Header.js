@@ -36,7 +36,7 @@ export default function Header() {
 								<div className='d-flex align-items-center  m-lg-3 gap-3 p-lg-3 '>
 									<img src='https://png.pngtree.com/png-vector/20220831/ourmid/pngtree-banyan-tree-logo-design-vector-png-image_6131481.png' alt='logo' style={{ width: '80px' }}></img>
 									<div className='text-decoration-none'>
-										<NavLink to='/' className="nav-link">
+										<NavLink to='/' className="nav-link white-space-nowrap">
 											<h2 style={{ color: 'Green', }} >PLANT PALACE</h2>
 										</NavLink>
 									</div>
