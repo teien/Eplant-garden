@@ -1,34 +1,99 @@
-.text-style{
+.text-style {
     font-family: 'Playfair Display, serif'
 }
-.mt-12{
+
+.text-styles {
+    font-family: 'Artifika', serif;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+.mt-12 {
     margin-top: 12px;
 }
-.img-fix{
+
+.img-fix {
     display: block;
     object-fit: cover;
-    overflow: hidden;   
+    overflow: hidden;
 }
-.more-info{
+
+.more-info {
     margin-right: 12px;
     font-style: italic;
     color: #00000088;
 }
 
-.card-display{
+.card-display {
+    height: 100%;
     display: block;
     width: 90%;
     margin: auto;
     text-decoration: none;
-    transition: 0.4s ease ;
+    transition: 0.4s ease;
+    border: 1px solid #00000015;
 }
-.card-display:hover{
+
+.card-display:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
 }
-.status{
+
+.status {
     position: absolute;
     top: 40px;
     padding: 0 32px;
     background-color: #42c4c1;
     color: #fff;
+}
+
+.detail-product{
+    top: -1%;
+    left: -20%;
+    width: 1000vh;
+    height: 100vh;
+    /* width: 50%;
+    height: 80%; */
+    background-color: rgba(0, 0, 255, 0);
+    position: fixed;
+    z-index: 100;
+}
+
+.child-detail{
+    /* display: flex; */
+    margin: 100px 800px;
+    width: 12%;
+    height: 70%;
+    background-color:aliceblue;
+    border-radius: 12px;
+}
+.btn-position{
+    display: block;
+}
+.img-setup{
+    width: 470px;
+    object-fit: cover;
+    margin: auto;
+}
+.span-line{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #0000003a;
+}
+
+.desc{
+    font-size: 20px;
+    margin-top: 16px;
+    text-align: justify;
+}
+.sub-desc{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.span-size{
+    margin-top: 24px;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
 }
