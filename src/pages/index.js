@@ -15,7 +15,7 @@ function IndexPage() {
 						<div className="card-body mt-5 ms-3" style={{ width: '500px' }}>
 							<h1 className="card-title fs-1">We Love Helping To Your Decorate Home Plants</h1>
 							<p className="card-text">Garden care is the process of maintaining and nurturning a garden to ensure its health, beauty, and productivity.</p>
-							<Link className="btn btn-primary" to="/Shop" role="button">Shop Now</Link>
+							<Link className="btn btn-primary" style={{backgroundColor:'#475f45'}} to="/Shop" role="button">Shop Now</Link>
 						</div>
 					</div>
 				</div>

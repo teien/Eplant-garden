@@ -17,7 +17,14 @@ export default function Card({ data }) {
 			</div>) : ""
 		)
 	}
-	const [btnPopup, setBtnPopup] = useState(false)
+	const [btnPopup, setBtnPopup] = useState(false);
+
+	const saveDataOnLocal = ()=>{
+		const prevCartIds = localStorage.getItem('userCart') ? JSON.parse(localStorage.getItem('userCart')) : [];
+		prevCartIds.push(data.id)
+		localStorage.setItem('userCart',JSON.stringify([...new Set(prevCartIds)] ));
+		
+	}
 	return (
 		<div className="card-display rounded" >
 			<div className="card border-0" onClick={() => setBtnPopup(true)}>
@@ -55,7 +62,9 @@ export default function Card({ data }) {
 								<p style={{padding: 8, fontSize: 20}}>size:</p>
 								<p style={{padding: "8px 36px", fontStyle:"italic", border: "1px solid #000"}}>{data.size}</p>
 							</div>
-							<Link to={"/buytree"} type="button" className="btn btn-success d-block my-2 w-100" style={{backgroundColor:"#475f45"}}>Add to Cart</Link>
+							<button  type="button" className="btn btn-success d-block my-2 w-100" style={{backgroundColor:"#475f45"}} 
+							onClick={saveDataOnLocal}
+							>Add to Cart</button>
 						</div>
 					</div>
 				</div>

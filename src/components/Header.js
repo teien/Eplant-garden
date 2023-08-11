@@ -13,6 +13,7 @@ export default function Header() {
 	};
 	const searchbuttom = {
 		marginLeft: '200px',
+		stylebackgroundColor:'#475f45',
 
 
 	};
