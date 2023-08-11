@@ -109,7 +109,7 @@ export default function Header() {
 								</li>
 							</div>
 						</li>
-						<div className='ms-5' style={{ width: '15px', height: '' }}>
+						<div className='ms-5' style={{ width: '10px', height: '' }}>
 							<Link to="/buytree">
 								<i className="fa-solid fa-cart-shopping fa-beat fa-xl" style={{ color: '#475f45' }}></i>
 							</Link>
