@@ -23,7 +23,7 @@ const listProducts = [
         desc: "Embrace color with this unique Aglaonema cultivar, Wishes. A fitting name since the Aglaonema is said to bring luck, fortune, and general positivity to those who grow it. Whether you believe in its hidden powers or not, there's no denying this colorful plant will bring joy to your space.",
         describe1: "Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
         describe2: "Medium plant measures between 9-14'' tall from the soil line to the top of the foliage ",
-        describe3: "Arrives in a '' nursery grow pot nestled in your planter choice",
+        describe3: "Arrives in a 6'' nursery grow pot nestled in your planter choice",
     },
     {
         id: 3,
@@ -36,7 +36,7 @@ const listProducts = [
         desc: "The Dwarf Banana Tree (Musa acuminata 'Dwarf Cavendish') is a fast-grower native to Southeast Asia that can reach 8- to 10-feet in height. This plant's broad, flat leaves are adorned with maroon blotches that fade as the plant ages. Under optimal conditions, this plant can potentially produce actual bananas once it reaches at least three feet tall. ",
         describe1: "Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range",
         describe2: "Medium plant measures between 8 and 15 inches tall from the soil line to the top of the foliage ",
-        describe3: "Arrives in a '' nursery grow pot nestled in your planter choice",
+        describe3: "Arrives in a 6'' nursery grow pot nestled in your planter choice",
     },
     {
         id: 4,

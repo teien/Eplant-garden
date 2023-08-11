@@ -3,6 +3,33 @@ import getListProducts from "../../data";
 import { useState, useEffect } from "react";
 import SideBarFilter from "../../components/layouts/Sidebar"
 
+export function AllProduct(){
+    const [renderList, setRenderList] = useState([])
+
+    useEffect(() => {
+        const listData = getListProducts()
+        setRenderList(listData)
+    }, [])
+    return (
+        <div className="row mx-0">
+            <div className="col-2">
+
+                <SideBarFilter />
+            </div>
+            <div className="row mx-0 justify-content-evenly col-10">
+                {
+                    renderList.map((item) => {
+                        return (
+                            <div className="col-3 py-3" key={item.id}>
+                                <Card data={item} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </div>
+    )
+}
 export default function PlantsAndTrees() {
 
     const [renderList, setRenderList] = useState([])
