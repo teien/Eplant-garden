@@ -3,16 +3,16 @@ import BuyTree from '../pages/buytree';
 import About from '../pages/todo/aboutus'
 import IndexPage from '../pages/index';
 import NotFoundPage from '../pages/404';
-import PlantsAndTrees, { FlowerPlants, ForBeginner, PetFriendly, NewArrival } from '../pages/todo/plantsAndTrees';
+import PlantsAndTrees, { FlowerPlants, ForBeginner, PetFriendly, NewArrival, AllProduct } from '../pages/todo/plantsAndTrees';
 import Contact from '../pages/todo/contact';
 import Feedback from '../pages/todo/feedback';
 
 function AppRoutes() {
 	return (
 		<Routes>
-			<Route path='/PlantPalace' element={<IndexPage />}></Route>
-			<Route path='/' element={<IndexPage />}></Route>
-			<Route path='/shop' element={<PlantsAndTrees />}></Route>
+			<Route path='/' element={<IndexPage/>}></Route>
+			<Route path='/plant-and-tree' element={<PlantsAndTrees />}></Route>
+			<Route path='/shop' element={<AllProduct />}></Route>
 			<Route path='/flower-plants' element={<FlowerPlants />}></Route>
 			<Route path='/for-beginner' element={<ForBeginner />}></Route>
 			<Route path='/pet-friendly' element={<PetFriendly />}></Route>
