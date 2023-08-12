@@ -10,11 +10,7 @@ import Feedback from '../pages/todo/feedback';
 function AppRoutes() {
 	return (
 		<Routes>
-<<<<<<< HEAD
 			<Route path='/' element={<IndexPage />}></Route>
-=======
-			<Route path='/' element={<IndexPage/>}></Route>
->>>>>>> 0dfd2c95c4ace748ee5c3ccc8c85a4616443dd1f
 			<Route path='/plant-and-tree' element={<PlantsAndTrees />}></Route>
 			<Route path='/shop' element={<AllProduct />}></Route>
 			<Route path='/flower-plants' element={<FlowerPlants />}></Route>
