@@ -22,6 +22,7 @@ function AppRoutes() {
 			<Route path='/feed-back' element={<Feedback />}></Route>
 			<Route path='/buytree' element={<BuyTree />}></Route>
 			<Route path='*' element={<NotFoundPage />}></Route>
+			<Route path='/PlantPalace' element={<IndexPage />}></Route>
 		</Routes>
 	);
 }
